@@ -116,6 +116,23 @@
     </p>
     <hr>
     <h4 id="design">For any task on web design:</h4>
+    <div class="tasks">
+        <form>
+            <label for="fname">Name/Organization:</label><br>
+            <input type="text" id="name" name="name" placeholder="Name/Organization" required><br>
+            <label for="lname">Email Address</label><br>
+            <input type="text" id="mail" name="mail" placeholder="Email" required><br>
+            <label for="lname">Enter phone number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="0123-456789" required><br>
+            <label for="task">Task Description:</label><br>
+            <textarea id="textarea" name="textarea" rows="4" cols="50">
+                </textarea>
+            <br>
+
+            <input type="submit" onclick="alert('Successfully submitted!')" value="Submit">
+
+        </form>
+    </div>
 </body>
 
 </html>
