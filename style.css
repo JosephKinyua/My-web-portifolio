@@ -198,3 +198,9 @@ footer {
 .media a {
     text-decoration: none;
 }
+
+.copy {
+    text-align: center;
+    position: relative;
+    margin-top: 140px;
+}
