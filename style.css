@@ -179,3 +179,22 @@ div.tasks {
     left: 25%;
     margin-bottom: 30px;
 }
+
+footer {
+    background-color: rgb(209, 112, 2);
+    padding-bottom: 2%;
+}
+
+.media i {
+    font-size: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.media a {
+    text-decoration: none;
+}
