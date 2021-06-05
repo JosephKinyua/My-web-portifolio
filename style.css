@@ -204,3 +204,8 @@ footer {
     position: relative;
     margin-top: 140px;
 }
+
+.arrange {
+    display: flex;
+    flex-direction: column;
+}
