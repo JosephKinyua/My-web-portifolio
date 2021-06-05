@@ -135,3 +135,47 @@ h5 {
 #design {
     text-align: center;
 }
+
+input[type=text],
+input[type=tel],
+textarea {
+    width: 99%;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+input[type=submit] {
+    width: 99%;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    background-color: rgb(209, 112, 2);
+}
+
+div.tasks {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background-color: rgb(104, 109, 76, 0.5);
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin-bottom: 30px;
+}
