@@ -31,3 +31,50 @@ h3 {
     text-align: center;
     font-size: 25px;
 }
+
+.link li {
+    float: left;
+    padding-right: 40px;
+    width: 555px;
+    height: 300px;
+    background-color: rgb(104, 109, 76, 0.5);
+    margin: 30px;
+    font-size: 18px;
+}
+
+
+/* .link {
+    margin-left: 100px;
+} */
+
+.link li {
+    box-shadow: 5px 10px 18px 15px rgb(209, 112, 2, 0.4);
+    ;
+}
+
+h3 {
+    color: rgb(209, 112, 2);
+    text-align: center;
+    font-size: 25px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+a {
+    background-color: rgba(35, 195, 201, 0.4);
+    color: black;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+a:hover {
+    background-color: rgb(209, 112, 2);
+    padding: 10px;
+}
