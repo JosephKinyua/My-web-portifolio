@@ -2,3 +2,26 @@
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.photo img {
+    height: 300px;
+    width: 400px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.profile {
+    display: flex;
+}
+
+.about {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.about h2 {
+    color: rgb(209, 112, 2);
+}
