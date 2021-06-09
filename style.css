@@ -54,9 +54,6 @@ h3 {
 
 li a {
     text-decoration: none;
-}
-
-a {
     background-color: rgba(35, 195, 201, 0.4);
     color: black;
     padding-bottom: 20px;
@@ -176,11 +173,12 @@ div.tasks {
 
 footer {
     background-color: rgb(209, 112, 2);
-    padding-bottom: 2%;
+    padding-bottom: 30px;
 }
 
 .media i {
     font-size: 20px;
+    width: auto;
 }
 
 .social {
@@ -196,7 +194,8 @@ footer {
 .copy {
     text-align: center;
     position: relative;
-    margin-top: 140px;
+    margin-top: 40px;
+    margin-bottom: -25px;
 }
 
 .all {
